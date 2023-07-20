@@ -31,9 +31,13 @@ function updateBackground() {
 }
 
 setTimeout(()=>{
+    document.querySelector('.loadingContainer').style.display = 'none'
+    document.querySelector('.container').style.display = 'flex'
+},1300)
+
+setTimeout(()=>{
     document.querySelector('.header h3').style.display = 'flex'
 },700)
-
 
 
 async function searching() {
