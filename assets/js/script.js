@@ -37,7 +37,7 @@ setTimeout(()=>{
 
 setTimeout(()=>{
     document.querySelector('.header h3').style.display = 'flex'
-},700)
+},1350)
 
 
 async function searching() {
